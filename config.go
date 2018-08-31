@@ -26,6 +26,8 @@ type Config struct {
 	API       API       // local node's API settings
 	Swarm     SwarmConfig
 	Pubsub    PubsubConfig
+	// TODO: not sure whether `BitswapStrategy` should be stored in the BuildCfg
+	BitswapStrategy string
 
 	Reprovider   Reprovider
 	Experimental Experiments

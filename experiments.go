@@ -6,4 +6,7 @@ type Experiments struct {
 	ShardingEnabled      bool
 	Libp2pStreamMounting bool
 	QUIC                 bool
+	BitswapStrategyEnabled bool
+	BitswapStrategy        string
+	BitswapRRQRoundBurst   int
 }
