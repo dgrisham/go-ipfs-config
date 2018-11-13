@@ -5,6 +5,7 @@ type Experiments struct {
 	UrlstoreEnabled      bool
 	ShardingEnabled      bool
 	Libp2pStreamMounting bool
+	P2pHttpProxy         bool
 	QUIC                 bool
 	BitswapStrategyEnabled bool
 	BitswapStrategy        string
